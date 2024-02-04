@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/public/sunset.jpg");
+}
+
+.app-container {
+
+
+  text-align: center;
+}
+
+header {
+  /* background-color: #3498db; */
+  width: 100vw;
+  color: #fff;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.weather-card {
+  border: 1px solid #ddd;
+  margin-top: 2rem;
+  padding: 1rem;
+  justify-content: center;
+  text-align: left;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
